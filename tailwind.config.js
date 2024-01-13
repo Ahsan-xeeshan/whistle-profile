@@ -1,0 +1,19 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        pops: "Poppins",
+        rob: "Roboto",
+        pacific: "Pacifico",
+      },
+      backgroundImage: {
+        registration: "url('./src/assets/registration.jpeg')",
+        login: "url('./src/assets/login.jpg')",
+        coverphoto: "url('./src/assets/defCover.jpg')",
+      },
+    },
+  },
+  plugins: [],
+};

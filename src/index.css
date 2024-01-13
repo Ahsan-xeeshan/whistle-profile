@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.customModal {
+  max-width: 1380px;
+  width: 100%;
+}
