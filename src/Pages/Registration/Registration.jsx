@@ -108,7 +108,7 @@ const Registration = () => {
   };
 
   return (
-    <div className="m-0 p-0 box-border h-screen bg-registration bg-cover bg-no-repeat text-center" style={{background:'./src/assets/registration.jpg'}>
+    <div className="m-0 p-0 box-border h-screen bg-registration bg-cover bg-no-repeat text-center">
       <div className="py-6">
         <div className="w-[700px] h-[850px] bg-white mx-auto px-[45px] py-[100px]">
           <h3 className="font-rob text-3xl font-bold">
