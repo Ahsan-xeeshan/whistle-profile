@@ -9,9 +9,9 @@ export default {
         pacific: "Pacifico",
       },
       backgroundImage: {
-        registration: "url('./src/assets/registration.jpeg')",
-        login: "url('./src/assets/login.jpg')",
-        coverphoto: "url('./src/assets/defCover.jpg')",
+        registration: "url('registration.jpeg')",
+        login: "url('login.jpg')",
+        coverphoto: "url('defCover.jpg')",
       },
     },
   },

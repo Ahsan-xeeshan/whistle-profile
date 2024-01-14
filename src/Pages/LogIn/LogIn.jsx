@@ -11,8 +11,8 @@ import { AiFillEye, AiFillEyeInvisible } from "react-icons/ai";
 import { useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
+import Google from "../../../public/google.png";
 import { userLoginInfo } from "../../Slice/UserSlice";
-import Google from "../../assets/google.png";
 
 const LogIn = () => {
   const auth = getAuth();
